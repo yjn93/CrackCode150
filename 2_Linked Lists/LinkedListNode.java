@@ -19,6 +19,16 @@ public class LinkedListNode {
 		}
 		System.out.println();
 	}
+	int length(LinkedListNode head){
+		if(head == null)
+			return 0;
+		int length = 0;
+		while(head != null){
+			length ++;
+			head = head.next;
+		}
+		return length;
+	}
 	LinkedListNode delete(LinkedListNode head, int d){
 		LinkedListNode current = head;
 		if(current.data == d) return head.next;
