@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="1_Arrays and Strings"/>
 	<classpathentry kind="src" path="2_Linked Lists"/>
 	<classpathentry kind="src" path="3_Stacks and Queues"/>
+	<classpathentry kind="src" path="4_Trees and Graphs"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
