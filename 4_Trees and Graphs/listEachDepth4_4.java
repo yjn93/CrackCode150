@@ -51,6 +51,28 @@ public class listEachDepth4_4 {
 		}
 		return results;
 	}
+	public static ArrayList<LinkedList<BTNode>> createLists(BTNode root){
+		int depth = 0;
+		ArrayList<LinkedList<BTNode>> results = new ArrayList<LinkedList<BTNode>>();
+		LinkedList<BTNode> list = new LinkedList<BTNode>();
+		list.add(root);
+		results.add(depth, list);
+		while(true){
+			list = new LinkedList<BTNode>();
+			for(int i = 0; i < results.get(depth).size(); i ++){
+				BTNode n = results.get(depth).get(i);
+				if(n != null){
+					if(n.getLeft() != null) list.add(n.getLeft());
+					if(n.getRight() != null) list.add(n.getRight());
+				}
+			}
+			if(list.size() == 0)
+				break;
+			depth ++;
+			results.add(depth, list);
+		}
+		return results;
+	}
 	
 	public static void printLists(ArrayList<LinkedList<BTNode>> lists){
 		for(int i = 0; i < lists.size(); i ++){

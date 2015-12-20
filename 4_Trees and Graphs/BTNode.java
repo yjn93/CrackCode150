@@ -37,6 +37,11 @@ public class BTNode {
 		return this.rChild;
 	}
 	
+	public static int depth(BTNode root){
+		if(root == null) return 0;
+		return 1 + Math.max(depth(root.getLeft()), depth(root.getRight()));	
+	}
+	
 	public static void printInOrder(BTNode root){
 		if(root != null){
 			printInOrder(root.getLeft());
