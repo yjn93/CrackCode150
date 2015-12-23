@@ -16,7 +16,6 @@ public class updateBits5_1 {
 		System.out.println("m: " + Integer.toBinaryString(m));
 		n = updateBits(n, m, 1, 3);
 		System.out.println("n: " + Integer.toBinaryString(n));
-
 	}
 	public static int updateBits(int n, int m, int start, int end){
 		int allOnes = ~0;

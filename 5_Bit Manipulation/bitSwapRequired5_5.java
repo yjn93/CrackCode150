@@ -1,4 +1,6 @@
-
+/*
+ * Write a function to determine the number of bits required to convert integer A to integer B.
+ */
 public class bitSwapRequired5_5 {
 
 	public static void main(String[] args) {
