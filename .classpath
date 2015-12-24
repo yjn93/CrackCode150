@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="4_Trees and Graphs"/>
 	<classpathentry kind="src" path="5_Bit Manipulation"/>
 	<classpathentry kind="src" path="8_Recursion"/>
+	<classpathentry kind="src" path="9_Sorting and Searching"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
